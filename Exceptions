@@ -1,0 +1,12 @@
+#ProblemName: Exceptions
+#Language: Pypy3
+
+T = int(input())
+
+for _ in range(T):
+    try:
+        a, b = input().split()
+        result = int(a) // int(b)
+        print(result)
+    except Exception as e:
+        print("Error Code:", e)
