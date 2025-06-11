@@ -1,0 +1,18 @@
+#Problem Name: Set .discard(), .remove() & .pop()
+#Language: Python 3
+n = int(input())
+s = set(map(int, input().split()))
+N = int(input())
+
+for _ in range(N):
+    parts = input().split()
+    command = parts[0]
+    
+    if command == "pop":
+        s.pop()
+    elif command == "remove":
+        s.remove(int(parts[1]))
+    elif command == "discard":
+        s.discard(int(parts[1]))
+
+print(sum(s))
