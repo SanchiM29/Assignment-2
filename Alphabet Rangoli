@@ -1,5 +1,5 @@
-Problem Name: Alphabet Rangoli
-Language: Python 3
+#Problem Name: Alphabet Rangoli
+#Language: Python 3
 
 a = "abcdefghijklmnopqrstuvwxyz"
 def print_rangoli(size):
